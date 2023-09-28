@@ -25,7 +25,7 @@ const leftElement = document.querySelector('.left-column-fixed');
 const rightElement = document.querySelector('.right-column-fixed');
 const wrapperElement = document.querySelector('.cols-wrapper');
 const resizer = document.querySelector(".resizer");
-const resizerWidth = 36;
+const resizerWidth = 18;
 const height = leftElement.offsetHeight;
 
 
@@ -109,7 +109,7 @@ else {
      
     if (leftPanel.classList.contains('expanded')){
 
-      move(leftPanel,window.innerWidth - resizerWidth ,500 )
+      move(leftPanel,window.innerWidth - resizerWidth , 500 )
       //leftPanel.style.transform ="translateX(-" + (window.innerWidth - resizerWidth) + "px)";
 
       leftPanel.classList.remove('expanded');

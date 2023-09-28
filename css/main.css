@@ -29,6 +29,7 @@ html {
 }
 html, body {
   height: 100vw;
+  overflow-x: hidden;
 }
 :root {
   --main-bg-color: #e75653;
